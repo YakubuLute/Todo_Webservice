@@ -6,7 +6,7 @@ import TodoModel from './schema/todo_schema.js';
 dotenv.config();
 
 const app = express();
-const port = 300||process.env.PORT;
+const port = process.env.PORT;
 app.use(express.json());
 
 //db connection strings
